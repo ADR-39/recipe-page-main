@@ -54,10 +54,8 @@ img {
 
 .container {
     background: var(--white-color);
-    max-width: min(calc(100vw - 100px), 660px);
-    margin: 120px auto;
+    max-width: 100%;
     padding: 40px;
-    border-radius: 20px;
 
     /* flex */
     display: flex;
@@ -168,4 +166,13 @@ tr:last-child td {
 td {
     color: var(--rose-800-color);
     font-weight: 700;
+}
+
+
+@media (width >= 660px) {
+    .container {
+        margin: 120px auto;
+        border-radius: 20px;
+        max-width: 660px;
+    }
 }
