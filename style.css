@@ -63,13 +63,18 @@ img {
     gap: 34px;
 }
 
-h1 {
-    font-size: 40px;
-}
-
 h1, h2 {
     font-family: var(--title-font-family);
     font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--stone-900-color);
+}
+
+h2 {
+    font-size: 32px;
     color: var(--brown-800-color);
 }
 
@@ -88,8 +93,7 @@ h3 {
 }
 
 ul, ol {
-    padding-left: 5px;
-    list-style-position: inside;
+    padding-left: 20px;
 }
 
 ul {
@@ -126,6 +130,7 @@ li + li {
 li {
     color: var(--brown-800-color);
     font-weight: 700;
+    padding-left: 2em;
 }
 
 .item-description {
